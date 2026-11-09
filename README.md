@@ -16,6 +16,12 @@ From the plugin market (`Plugins → Market → dsh-pomodoro-clock → Install`)
 dsh plugin add dsh-pomodoro-clock
 ```
 
+Or install the published release tarball directly:
+
+```bash
+dsh plugin --profile web add "https://github.com/new2023start/dsh-pomodoro-clock/releases/download/v1.0.0/dsh-pomodoro-clock-1.0.0.tgz"
+```
+
 Installing adds seats to your profile; nothing shipped is replaced.
 
 ## What it adds
